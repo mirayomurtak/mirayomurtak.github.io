@@ -23,7 +23,7 @@ repository               : "mirayomurtak/mirayomurtak.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Headshot.jpg"
   name             : "Miray Omurtak"
   bio              : "Development Economics"
   email            : "miray.omurtak@yale.edu"
