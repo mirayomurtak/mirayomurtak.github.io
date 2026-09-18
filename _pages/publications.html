@@ -5,32 +5,26 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## Publications
 
-{% include base_path %}
+**Syrian Refugee Inflows, Health Care Access, and Childhood Vaccination in Turkey**  
+with Bilge Erten, Pinar Keskin, and Ilhan Can Ozen  
+*The World Bank Economic Review*, 2023
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+## Working Papers
 
+**Interethnic Business Networks: Experimental Evidence from Turkish and Syrian Firms**  
+with Onur Altındağ, Lydia Assouad, Ceren Baysan, and Carlos Molina
 
+**Empirical Flood-Damage Functions for Agriculture: Duration, Experience, and Recovery**  
+with Vineet Gupta, Maulik Jagnani, Rohini Pande, and George Taylor
 
+**Contested Waste: Measurement, Risk, and Environmental Governance in Ghana's Second-Hand Clothing Trade**  
+with Meital Peleg Mizrachi and Naasey Kanko Arthur
+
+## Work in Progress
+
+**Coastal Land Use in the Mediterranean**
+
+**Building Purchasing Relationships: Buyer Entry and Farmer Welfare in Côte d'Ivoire**  
+with Ahmed Mushfiq Mobarak and Marie-Rose Tonguino
